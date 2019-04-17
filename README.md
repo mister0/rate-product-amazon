@@ -1,14 +1,14 @@
-### This repository contains a simple spring application (microservice) that uses amazon autocomplete API to estimate a score for how hot does this keyword have
+### This repository contains a simple spring application (microservice) that uses amazon autocomplete API to estimate a score for how hot is this keyword
 
 
-The application receives get request with a keyword as a request parameter
+The application receives get request with a keyword as a request parameter and resturns a json string containing the keyword and the score
 
 #### Before running this application you need to make sure : 
 
 * You have java installed from [here](https://java.com/en/download/help/index_installing.xml)
 * You have maven installed from [here](https://maven.apache.org/install.html)
 
- To run the application : 
+#### To run the application : 
 * To build the project, in the folder containing `pom.xml` use the terminal to run `mvn package`
 * Run the project using `java -jar target/rate-product-service-0.1.0.jar`
 * try using it by calling : 
