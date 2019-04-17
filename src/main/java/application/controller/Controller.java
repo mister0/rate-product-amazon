@@ -43,7 +43,8 @@ public class Controller {
      * of keywords that comes after the keyword.
      *
      * In case the keyword is too generic (example : bla -> gets all products starting with black)
-     * the assumption here is that it is very strong prefix and has 100 score.
+     * then the score here will be the the size of the tree (which means the total number of results
+     * we will get from the second search).
      *
      * In case of empty list we consider the score 0.
      *
